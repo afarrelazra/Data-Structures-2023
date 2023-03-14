@@ -90,7 +90,7 @@ public class Phonebook {
         phonebook.addContact("Charlie", "081212690002");
         phonebook.printPhonebook();
         System.out.println("Afarrel's phone number: " + phonebook.findPhoneNumber("Afarrel"));
-        phonebook.removeContact("Bob");
+        phonebook.removeContact("Ben");
         phonebook.printPhonebook();
         System.out.println("Phonebook size: " + phonebook.getSize());
     }
